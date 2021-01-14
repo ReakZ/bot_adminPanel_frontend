@@ -1,0 +1,72 @@
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: 100vh;
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.error{
+text-align:center;
+    
+}
+
+i {
+    color: #999;
+    font-size: 5rem;
+}
+
+h2 {
+
+    font-size: 2rem;
+    color: #666;
+    padding-top: 1rem;
+}
+
+.info {
+    width: 100%;
+    margin: auto;
+
+}
+
+.nav-item{
+    border-bottom:1px solid #999;
+}
+
+.nav-link>i{
+    font-size: 1rem;
+    margin-right:5px;
+    color:white
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.brand{
+    color:#999;
+    margin-top: 1rem;
+}
+
+.brand>i{
+    font-size: 1rem;
+    margin-right:5px;
+    color:white;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 0 .3rem;
+}
